@@ -116,25 +116,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIImage * bgImage = [UIImage imageNamed:@"bg"];
+    UIImage * bgImage = [UIImage imageNamed:@"background"];
     self.view.layer.contents = (id)bgImage.CGImage;
     
     self.summerLabel = [self createSimilerLabel];
-    self.summerLabel.text = @"summer";
+    self.summerLabel.text = @"autumn";
     [self.view addSubview:self.summerLabel];
     
     self.autumnLabel = [self createSimilerLabel];
-    self.autumnLabel.text = @"autumn";
+    self.autumnLabel.text = @"summer";
     [self.view addSubview:self.autumnLabel];
     
     CGRect imageFrame = CGRectMake(50, 100, 30, 25);
     self.leaf = [[UIImageView alloc] initWithFrame:imageFrame];
-    self.leaf.image = [UIImage imageNamed:@"yezi.jpg"];
+    self.leaf.image = [UIImage imageNamed:@"leaf"];
     [self.view addSubview:self.leaf];
 }
 
 - (UILabel *)createSimilerLabel {
-    CGFloat height = [UIScreen mainScreen].bounds.size.height*.8;
+    CGFloat height = [UIScreen mainScreen].bounds.size.height*.75;
     CGRect frame = CGRectMake(10, height, 200, 40);
     UILabel * label = [[UILabel alloc] initWithFrame:frame];
     label.font = [UIFont fontWithName:@"Chalkduster" size:30.0];
