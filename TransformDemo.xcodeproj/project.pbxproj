@@ -13,6 +13,8 @@
 		5CAE5C191C76BE610012F452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C171C76BE610012F452 /* Main.storyboard */; };
 		5CAE5C1B1C76BE610012F452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C1A1C76BE610012F452 /* Assets.xcassets */; };
 		5CAE5C1E1C76BE610012F452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C1C1C76BE610012F452 /* LaunchScreen.storyboard */; };
+		5CAE5C271C76F9450012F452 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C251C76F9450012F452 /* bg.png */; };
+		5CAE5C281C76F9450012F452 /* yezi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C261C76F9450012F452 /* yezi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5CAE5C1A1C76BE610012F452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CAE5C1D1C76BE610012F452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CAE5C1F1C76BE610012F452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAE5C251C76F9450012F452 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = SOURCE_ROOT; };
+		5CAE5C261C76F9450012F452 /* yezi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yezi.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				5CAE5C121C76BE610012F452 /* AppDelegate.m */,
 				5CAE5C141C76BE610012F452 /* ViewController.h */,
 				5CAE5C151C76BE610012F452 /* ViewController.m */,
+				5CAE5C251C76F9450012F452 /* bg.png */,
+				5CAE5C261C76F9450012F452 /* yezi.jpg */,
 				5CAE5C171C76BE610012F452 /* Main.storyboard */,
 				5CAE5C1A1C76BE610012F452 /* Assets.xcassets */,
 				5CAE5C1C1C76BE610012F452 /* LaunchScreen.storyboard */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CAE5C1E1C76BE610012F452 /* LaunchScreen.storyboard in Resources */,
+				5CAE5C281C76F9450012F452 /* yezi.jpg in Resources */,
 				5CAE5C1B1C76BE610012F452 /* Assets.xcassets in Resources */,
+				5CAE5C271C76F9450012F452 /* bg.png in Resources */,
 				5CAE5C191C76BE610012F452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
