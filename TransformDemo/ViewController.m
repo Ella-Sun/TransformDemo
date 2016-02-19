@@ -37,6 +37,8 @@
     //初始化动画开始前label的位置
     CGFloat offset = self.summerLabel.frame.size.height * .5;
     
+    //CGAffineTransformConcat 通过两个已经存在的放射矩阵生成一个新的矩阵t' = t1 * t2
+    //即：用来连接两个变换效果并返回。返回的t = t1 * t2
     self.summerLabel.transform = CGAffineTransformConcat(
                                                          CGAffineTransformMakeScale(1, 0),
                                                          CGAffineTransformTranslate(self.summerLabel.transform, 0, -offset));
@@ -77,6 +79,16 @@
      frameStartTime  表示关键帧动画开始的时刻在整个动画中的百分比
      frameDuration  表示这个关键帧动画占用整个动画时长的百分比。
     + (void)addKeyframeWithRelativeStartTime:(double)frameStartTime relativeDuration:(double)frameDuration animations:(void (^)(void))animations
+     */
+    
+    /*
+     关键帧特有的配置参数：options:
+     
+     UIViewKeyframeAnimationOptionCalculationModeLinear      // 连续运算模式，线性
+     UIViewKeyframeAnimationOptionCalculationModeDiscrete    // 离散运算模式，只显示关键帧
+     UIViewKeyframeAnimationOptionCalculationModePaced       // 均匀执行运算模式，线性
+     UIViewKeyframeAnimationOptionCalculationModeCubic       // 平滑运算模式
+     UIViewKeyframeAnimationOptionCalculationModeCubicPaced  // 平滑均匀运算模式
      */
     [UIView animateKeyframesWithDuration: 4 delay: 0 options: UIViewKeyframeAnimationOptionCalculationModeLinear animations: ^{
         __block CGPoint center = _leaf.center;
