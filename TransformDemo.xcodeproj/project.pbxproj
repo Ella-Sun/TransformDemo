@@ -15,6 +15,7 @@
 		5CAE5C1E1C76BE610012F452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C1C1C76BE610012F452 /* LaunchScreen.storyboard */; };
 		5CAE5C2B1C7707CF0012F452 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C291C7707CF0012F452 /* background@2x.png */; };
 		5CAE5C2C1C7707CF0012F452 /* leaf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE5C2A1C7707CF0012F452 /* leaf@2x.png */; };
+		A46E67C01EA9A9E4003834C0 /* Leaf.gif in Resources */ = {isa = PBXBuildFile; fileRef = A46E67BF1EA9A9E4003834C0 /* Leaf.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5CAE5C1F1C76BE610012F452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CAE5C291C7707CF0012F452 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		5CAE5C2A1C7707CF0012F452 /* leaf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leaf@2x.png"; sourceTree = "<group>"; };
+		A46E67BF1EA9A9E4003834C0 /* Leaf.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Leaf.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		5CAE5C0D1C76BE610012F452 /* TransformDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A46E67BF1EA9A9E4003834C0 /* Leaf.gif */,
 				5CAE5C111C76BE610012F452 /* AppDelegate.h */,
 				5CAE5C121C76BE610012F452 /* AppDelegate.m */,
 				5CAE5C141C76BE610012F452 /* ViewController.h */,
@@ -144,6 +147,7 @@
 			files = (
 				5CAE5C1E1C76BE610012F452 /* LaunchScreen.storyboard in Resources */,
 				5CAE5C1B1C76BE610012F452 /* Assets.xcassets in Resources */,
+				A46E67C01EA9A9E4003834C0 /* Leaf.gif in Resources */,
 				5CAE5C2C1C7707CF0012F452 /* leaf@2x.png in Resources */,
 				5CAE5C2B1C7707CF0012F452 /* background@2x.png in Resources */,
 				5CAE5C191C76BE610012F452 /* Main.storyboard in Resources */,
